@@ -6,21 +6,21 @@
 # Results
 * The results can be measured through both attached AlphabetSoupCharity.h5 and AlphabetSoupCharityOptimization.h5 files. These were direct output prints of the many attemps using different weights and layers, while modeling the Charity Data through the "relu" and "sigmoid" functions. Several steps of data cleaning/processing was performing before running the neural network. Based on several attempts with different variables, the model accuracy only increased from 0.7285131216049194 to 0.7309620976448059, which was under the 75% projected output. 
 
-![accuracy]()
-![accuracy_opt]()
+![accuracy](https://github.com/dwest85/Neural_Network_Charity_Analysis/blob/main/markdownpics/accuracy.PNG)
+![accuracy_opt](https://github.com/dwest85/Neural_Network_Charity_Analysis/blob/main/markdownpics/accuracy_opt.PNG)
 
 * The IS_SUCCESSFUL column from the Charity Data was considered our target data for the model.
-![target_features]()
+![target_features](https://github.com/dwest85/Neural_Network_Charity_Analysis/blob/main/markdownpics/target_features.PNG)
 
 * The features were the following column data:
-![features]()
+![features](https://github.com/dwest85/Neural_Network_Charity_Analysis/blob/main/markdownpics/features.PNG)
 
 # Compiling, Training, and Evaluating
 * The weights and layers, along with the functional methods for the first accuracy model were as follows:
-![weightsandlayers]()
+![weightsandlayers](https://github.com/dwest85/Neural_Network_Charity_Analysis/blob/main/markdownpics/weightsandlayers.PNG)
 
 * The optimized weights, layers, and functions (to achieve a projected goal of 75% or higher) were as follows:
-![weightsandlayersopt]()
+![weightsandlayersopt](https://github.com/dwest85/Neural_Network_Charity_Analysis/blob/main/markdownpics/weightsandlayersopt.PNG)
 
 # Summary
 * After several attemps to optimize the model accuracy (several methods overtrained resulting in a reduced accuracy), it has shown that the model is underperforming based on the projected results. A classifier model may produce better machine learning results.
